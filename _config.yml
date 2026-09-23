@@ -3,6 +3,10 @@ title: bloommedicalcentrerak-dot's personal blog
 description: This is where I share cool stuff about my life
 author: bloommedicalcentrerak-dot
 
+# Link to the Bloom Medical Center online portal (Odoo).
+portal_name: Bloom Medical Center portal
+portal_url: https://bloom-medical-center-llc.odoo.com/web
+
 show_excerpts: true
 
 header_pages:

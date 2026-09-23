@@ -9,3 +9,6 @@ This is my GitHub Pages homepage, built with Jekyll and the `minima` theme.
 
 Here you'll find my notes, updates, and anything else I feel like sharing.
 Read more [about me]({{ '/about/' | relative_url }}), and thanks for stopping by!
+
+Looking for the {{ site.portal_name }}?
+[Sign in here]({{ site.portal_url }}){:rel="noopener" target="_blank"}.

@@ -11,3 +11,7 @@ This site is built with [Jekyll](https://jekyllrb.com/) and published with
 
 Posts live in the `_posts` folder, site settings live in `_config.yml`, and
 this page comes from `about.md`.
+
+## Links
+
+- [{{ site.portal_name }}]({{ site.portal_url }}){:rel="noopener" target="_blank"}
