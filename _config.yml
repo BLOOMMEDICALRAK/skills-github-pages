@@ -2,4 +2,15 @@ theme: minima
 title: bloommedicalcentrerak-dot's personal blog
 description: This is where I share cool stuff about my life
 author: bloommedicalcentrerak-dot
+
 show_excerpts: true
+
+header_pages:
+  - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
