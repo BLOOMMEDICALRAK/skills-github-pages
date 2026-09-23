@@ -1,7 +1,19 @@
 ---
+layout: home
 title: Welcome to my blog!
+description: Notes, updates and links to the Bloom Clinic RAK website and online portal.
 ---
 
 # Welcome to my blog
 
-This is my GitHub Pages homepage.
+This is my GitHub Pages homepage, built with Jekyll and the `minima` theme.
+
+Here you'll find my notes, updates, and anything else I feel like sharing.
+Read more [about me]({{ '/about/' | relative_url }}), and thanks for stopping by!
+
+Visit the official website at
+[{{ site.website_name }}]({{ site.website_url }}){:rel="noopener" target="_blank"}.
+
+Looking for the {{ site.portal_name }}?
+[Sign in here]({{ site.portal_url }}){:rel="noopener" target="_blank"},
+or see all the ways to [get in touch]({{ '/contact/' | relative_url }}).
