@@ -22,7 +22,7 @@ to manage your account.
 {% endif %}
 
 {% assign has_social = false %}
-{% if c.facebook_url != "" or c.instagram_url != "" or c.snapchat_url != "" or c.linkedin_url != "" or c.x_url != "" %}
+{% if c.facebook_url != "" or c.instagram_url != "" or c.snapchat_url != "" or c.tiktok_url != "" or c.linkedin_url != "" or c.x_url != "" %}
   {% assign has_social = true %}
 {% endif %}
 {% if has_social %}
@@ -32,6 +32,7 @@ to manage your account.
   {% if c.facebook_url != "" %}<li><a href="{{ c.facebook_url }}" rel="noopener" target="_blank">Facebook</a></li>{% endif %}
   {% if c.instagram_url != "" %}<li><a href="{{ c.instagram_url }}" rel="noopener" target="_blank">Instagram</a></li>{% endif %}
   {% if c.snapchat_url != "" %}<li><a href="{{ c.snapchat_url }}" rel="noopener" target="_blank">Snapchat</a></li>{% endif %}
+  {% if c.tiktok_url != "" %}<li><a href="{{ c.tiktok_url }}" rel="noopener" target="_blank">TikTok</a></li>{% endif %}
   {% if c.linkedin_url != "" %}<li><a href="{{ c.linkedin_url }}" rel="noopener" target="_blank">LinkedIn</a></li>{% endif %}
   {% if c.x_url != "" %}<li><a href="{{ c.x_url }}" rel="noopener" target="_blank">X</a></li>{% endif %}
 </ul>

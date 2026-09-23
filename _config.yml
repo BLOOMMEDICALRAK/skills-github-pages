@@ -24,6 +24,7 @@ contact:
   instagram_url: "https://www.instagram.com/bloom.medical.rak/"
   linkedin_url: ""
   snapchat_url: "https://www.snapchat.com/add/bloom_medicalce"
+  tiktok_url: "https://www.tiktok.com/@centerbloommedica"
   x_url: ""
 
 # Social profile used by jekyll-seo-tag for structured data and share cards.
@@ -33,6 +34,7 @@ social:
     - https://bloomclinicrak.com/
     - https://www.instagram.com/bloom.medical.rak/
     - https://www.snapchat.com/add/bloom_medicalce
+    - https://www.tiktok.com/@centerbloommedica
 
 show_excerpts: true
 
