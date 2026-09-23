@@ -8,6 +8,10 @@ lang: en
 url: https://bloommedicalcentrerak-dot.github.io
 baseurl: /skills-github-pages
 
+# Official website of the clinic.
+website_name: Bloom Clinic RAK
+website_url: https://bloomclinicrak.com/
+
 # Link to the Bloom Medical Center online portal (Odoo).
 portal_name: Bloom Medical Center portal
 portal_url: https://bloom-medical-center-llc.odoo.com/web
@@ -17,14 +21,18 @@ portal_url: https://bloom-medical-center-llc.odoo.com/web
 contact:
   whatsapp_number: "971559966046"
   facebook_url: ""
-  instagram_url: ""
+  instagram_url: "https://www.instagram.com/bloom.medical.rak/"
   linkedin_url: ""
+  snapchat_url: "https://www.snapchat.com/add/bloom_medicalce"
   x_url: ""
 
 # Social profile used by jekyll-seo-tag for structured data and share cards.
 social:
   name: bloommedicalcentrerak-dot
-  links: []
+  links:
+    - https://bloomclinicrak.com/
+    - https://www.instagram.com/bloom.medical.rak/
+    - https://www.snapchat.com/add/bloom_medicalce
 
 show_excerpts: true
 
