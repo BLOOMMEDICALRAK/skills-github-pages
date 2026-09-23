@@ -15,7 +15,7 @@ portal_url: https://bloom-medical-center-llc.odoo.com/web
 # Contact details. Each entry stays hidden on the site until it is filled in.
 # whatsapp_number uses international format without "+" or spaces, e.g. 971500000000
 contact:
-  whatsapp_number: ""
+  whatsapp_number: "971559966046"
   facebook_url: ""
   instagram_url: ""
   linkedin_url: ""
