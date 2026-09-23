@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Welcome to my blog!
+description: Notes, updates and links to the Bloom Medical Center online portal.
 ---
 
 # Welcome to my blog
@@ -11,4 +12,5 @@ Here you'll find my notes, updates, and anything else I feel like sharing.
 Read more [about me]({{ '/about/' | relative_url }}), and thanks for stopping by!
 
 Looking for the {{ site.portal_name }}?
-[Sign in here]({{ site.portal_url }}){:rel="noopener" target="_blank"}.
+[Sign in here]({{ site.portal_url }}){:rel="noopener" target="_blank"},
+or see all the ways to [get in touch]({{ '/contact/' | relative_url }}).

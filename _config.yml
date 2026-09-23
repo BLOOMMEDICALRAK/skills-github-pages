@@ -2,15 +2,40 @@ theme: minima
 title: bloommedicalcentrerak-dot's personal blog
 description: This is where I share cool stuff about my life
 author: bloommedicalcentrerak-dot
+lang: en
+
+# Canonical location of the published site, used for SEO metadata and sitemap.
+url: https://bloommedicalcentrerak-dot.github.io
+baseurl: /skills-github-pages
 
 # Link to the Bloom Medical Center online portal (Odoo).
 portal_name: Bloom Medical Center portal
 portal_url: https://bloom-medical-center-llc.odoo.com/web
 
+# Contact details. Each entry stays hidden on the site until it is filled in.
+# whatsapp_number uses international format without "+" or spaces, e.g. 971500000000
+contact:
+  whatsapp_number: ""
+  facebook_url: ""
+  instagram_url: ""
+  linkedin_url: ""
+  x_url: ""
+
+# Social profile used by jekyll-seo-tag for structured data and share cards.
+social:
+  name: bloommedicalcentrerak-dot
+  links: []
+
 show_excerpts: true
 
 header_pages:
   - about.md
+  - contact.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 defaults:
   - scope:

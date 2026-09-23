@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: About this blog and the Bloom Medical Center online portal.
 ---
 
 Hi! I'm bloommedicalcentrerak-dot and this is my personal blog.
@@ -15,3 +16,4 @@ this page comes from `about.md`.
 ## Links
 
 - [{{ site.portal_name }}]({{ site.portal_url }}){:rel="noopener" target="_blank"}
+- [Contact]({{ '/contact/' | relative_url }})
